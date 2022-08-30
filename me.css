@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+}
+
+body{
+    background-color: #3433b2;
+    color: white;
+}
+
+nav{
+    padding: 10px;
+    background-color: #3433b2;
+    color: white;
+}
+    
+   
+nav ul h1{
+    padding-top: 10px;
+    margin-left: 40px;
+    font-family: 'DynaPuff', cursive;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: right;
+    
+}
+
+nav ul li{
+    display: flex;
+    align-items: right;
+    margin-left: 50px;
+    padding-top: 0px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+}
+
+.img{
+    text-align: center;
+    padding-top: 20px;
+}
+
+img{
+    width: 10%;
+    border-radius: 50%;
+}
+
+h3{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.category{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sertificate{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
+}
+
+.tambah{
+    margin-left: 12cm;
+    background-color: gray;
+    border-radius: 10px;
+    color: white;
+}
+
+.tambah :hover{
+    background-color: white;
+    transition: ease-in 0.2s;
+    color: black;
+}
+

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #3433b2;
+    color: white;
+}
+
+nav{
+    
+    padding: 10px;
+    top: 0%;
+    color: white;
+    background-color: #3433b2;
+}
+nav ul h1{
+    padding-top: 10px;
+    margin-left: 40px;
+    font-family: 'DynaPuff', cursive;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: right;
+    
+}
+
+nav ul li{
+    display: flex;
+    align-items: right;
+    margin-left: 50px;
+    padding-top: 3px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul li:hover{
+    padding-top: 5px;
+    text-decoration: underline;
+}
+
+#jam-digital{
+    overflow:hidden; 
+    width:150px;
+    margin-left: 10cm;
+}
+
+#hours{
+    float:left; 
+    width:40px; 
+    height:50px; 
+    margin-right:10px;
+}
+
+#minute{
+    float:left; 
+    width:40px; 
+    height:50px; 
+    margin-right:10px;
+}
+
+#second{
+    float:right; 
+    width:40px; 
+    height:50px; 
+    margin-left:10px;
+}
+
+#jam-digital p{
+    color:#000; 
+    font-size:20px; 
+    text-align:center; 
+    margin-top:4px;
+    color: white;
+}
+
+input{
+    padding-right: 200px;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    background-color: #3433b2;
+}
+
+h3{
+    padding-bottom: 30px;
+}
+
+#submit{
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: 120px;
+    border: 2px solid gray;
+}
+
+.row{
+  
+}
+
+.col{
+    background-color: cornflowerblue;
+    padding: 60px;
+    float: left;
+    margin: 50px;
+    margin-left: 150px;
+}
+
+.social{
+    font-size: 30px;
+    padding-top: 30px;
+}
