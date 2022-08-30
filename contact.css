@@ -88,8 +88,6 @@ nav ul li:hover{
 }
 
 input{
-    padding-right: 200px;
-    padding-left: 20px;
     padding-top: 7px;
     padding-bottom: 7px;
     border-radius: 5px;
@@ -99,6 +97,7 @@ input{
     margin-bottom: 25px;
     margin-top: 5px;
     background-color: #3433b2;
+    width: 90%;
 }
 
 h3{
@@ -110,10 +109,15 @@ h3{
     border-radius: 20px;
     margin-left: 120px;
     border: 2px solid gray;
+    background-color: #00D7FF;
+    cursor: pointer;
+    color: white;
 }
 
-.row{
-  
+#submit:hover{
+  background-color: white;
+  color: #000;
+  transition: all ease 0.3s;
 }
 
 .col{
@@ -124,7 +128,13 @@ h3{
     margin-left: 150px;
 }
 
-.social{
+span{
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.fa-brands, .fa-duotone{
     font-size: 30px;
     padding-top: 30px;
 }
