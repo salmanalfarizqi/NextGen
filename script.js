@@ -1,8 +1,8 @@
-// const navMenu = document.querySelector("#navMenu");
+const navMenu = document.querySelector("#nav-button");
 
-// navMenu.addEventListener("click", () =>{
-//     navMenu.classList.toggle("active");
-// });
+navMenu.addEventListener("click", () =>{
+    navMenu.classList.toggle("active");
+});
 
 window.setTimeout("waktu()",1000);
 function waktu() {
