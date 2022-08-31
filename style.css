@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
+@media screen and (max-width:1484px) {
 * {
     padding: 0;
     margin: 0;
@@ -19,7 +20,7 @@ nav {
     color: white;
 }
 
-nav ul h1 {
+nav h1 {
     padding-top: 10px;
     margin-left: 40px;
     font-family: 'DynaPuff', cursive;
@@ -31,6 +32,8 @@ nav ul {
     display: flex;
     justify-content: flex-start;
     align-items: right;
+    margin-left: 150px;
+    margin-top: -40px;
 
 }
 
@@ -145,8 +148,8 @@ p a {
 }
 
 
-@media screen and (max-width:1484px) {
-    .menu {
+
+    .toggle {
         display: none;
     }
 
@@ -156,17 +159,22 @@ p a {
     body{
         overflow: hidden;
     }
+
+    #jam-digital{
+        display: none;
+    }
     
-    .menu{
-        display: inline;
+    .toggle{
+        /* display: inline;
         border: 2px solid gray;
         float: right;
-        margin-top: 10px;
-        margin-left: 160px;
+        margin-top: -20px;
+        margin-left: 330px;
         padding-left: 2px;
         padding-right: 3px;
         padding-top: 1px;
-        border-radius: 3px;
+        border-radius: 3px; */
+        display: none;
     }
 
     img{
@@ -176,11 +184,38 @@ p a {
     input{
         display: none;
     }
-    
-    nav ul li {
-        display: none;
+
+    nav h1 {
+        padding-top: 10px;
+        margin-left: 10px;
+        font-family: 'DynaPuff', cursive;
+        font-size: 20px;
     }
 
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+        align-items: right;
+        margin-left: 100px;
+        margin-top: -33px;
+    }
+
+    nav ul li {
+        display: flex;
+        align-items: right;
+        margin-left: 10px;
+        padding-top: 3px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        font-size: 13px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
     .about {
         position: absolute;
         left: 50%;
@@ -218,6 +253,5 @@ p a {
         color: white;
         text-align: center;
         font-size: 12px;
-
     }
 }

@@ -1,8 +1,9 @@
-const navMenu = document.querySelector("#nav-button");
+document.getElementById("#nav-button")[0].addEventListener("click", toogleclass);
 
-navMenu.addEventListener("click", () =>{
-    navMenu.classList.toggle("active");
-});
+function toogleclass(){
+    document.getElementById("hamburgermenu")[0].classlist.toggle('open')
+    document.getElementsByClassName("menubox")[0].classlist.toggle('open')
+}
 
 window.setTimeout("waktu()",1000);
 function waktu() {
