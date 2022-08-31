@@ -20,46 +20,50 @@
             background-color: #3433b2;
             color: white;
         }
+        nav {
 
-        nav{
-            
             padding: 10px;
-            background-color: #3433b2;
             top: 0%;
             color: white;
-        }
-        nav ul h1{
+            }
+
+            nav h1 {
             padding-top: 10px;
             margin-left: 40px;
             font-family: 'DynaPuff', cursive;
 
-        }
-        nav ul{
+            }
+
+            nav ul {
             list-style: none;
             display: flex;
             justify-content: flex-start;
             align-items: right;
-            
-        }
+            margin-left: 150px;
+            margin-top: -40px;
 
-        nav ul li{
+            }
+
+            nav ul li {
             display: flex;
             align-items: right;
             margin-left: 50px;
             padding-top: 3px;
-        }
-        nav ul li a{
+            }
+
+            nav ul li a {
             text-decoration: none;
             color: white;
             padding: 10px;
             font-size: 20px;
             font-family: 'Roboto', sans-serif;
-        }
+            }
 
-        nav ul li:hover{
+            nav ul li:hover {
             padding-top: 5px;
             text-decoration: underline;
-        }
+            }
+
 
         #jam-digital{
             overflow:hidden; 
@@ -109,7 +113,7 @@
 
         @media screen and (max-width: 375px) {
             .menu{
-                display: inline;
+                /* display: inline;
                 border: 2px solid gray;
                 float: right;
                 margin-top: 10px;
@@ -117,28 +121,48 @@
                 padding-left: 2px;
                 padding-right: 3px;
                 padding-top: 1px;
-                border-radius: 3px;
-            }
-
-            img{
-                height: 50%;
-            }
-
-            input{
+                border-radius: 3px; */
                 display: none;
             }
-            
-            nav ul li {
-                display: none;
-            }
+
+            nav h1 {
+        padding-top: 10px;
+        margin-left: 1px;
+        font-family: 'DynaPuff', cursive;
+        font-size: 20px;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+        align-items: right;
+        margin-left: 100px;
+        margin-top: -33px;
+    }
+
+    nav ul li {
+        display: flex;
+        align-items: right;
+        margin-left: 1px;
+        padding-top: 3px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        padding: 8px;
+        font-size: 13px;
+        font-family: 'Roboto', sans-serif;
+    }
         }
 
     </style>
 </head>
 <body>
     <nav>
+        <h1>NEXT GEN</h1>
         <ul>
-            <h1>NEXT GEN</h1>
             <li><a href="index.html">Home</a></li>
             <li><a href="loker.html">LOKER</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -150,10 +174,10 @@
                     <div id="second"><p id="detik"></p></div>
                 </div>
             </li>
-            <div class="menu">
+            <!-- <div class="menu">
                 <input type="checkbox" name="" id="nav-button">
                 <label for="nav-button">&#9776</label>
-            </div>
+            </div> -->
         </ul>
     </nav>
     <h2 class="Heading"><i class="fa-solid fa-angle-right"></i> Mengenai NextGen NextGen</h2>

@@ -138,3 +138,80 @@ span{
     font-size: 30px;
     padding-top: 30px;
 }
+
+@media screen and (max-width : 375px) {
+    nav h1 {
+        padding-top: 10px;
+        margin-left: 1px;
+        font-family: 'DynaPuff', cursive;
+        font-size: 20px;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+        align-items: right;
+        margin-left: 100px;
+        margin-top: -33px;
+    }
+
+    nav ul li {
+        display: flex;
+        align-items: right;
+        margin-left: 1px;
+        padding-top: 3px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        padding: 8px;
+        font-size: 13px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #submit{
+        padding: 10px 20px;
+        border-radius: 20px;
+        margin-left: 40px;
+        border: 2px solid gray;
+        background-color: #00D7FF;
+        cursor: pointer;
+        color: white;
+    }
+
+    .col{
+        background-color: cornflowerblue;
+        padding: 60px;
+        float: left;
+        margin: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    input{
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-radius: 5px;
+        border: 1px solid gray;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 25px;
+        margin-top: 5px;
+        background-color: #3433b2;
+        width: 97%;
+    }
+
+    .fa-brands, .fa-duotone{
+        font-size: 20px;
+        padding-top: 30px;
+    }
+
+    span{
+        font-size: 18px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    
+    
+}
