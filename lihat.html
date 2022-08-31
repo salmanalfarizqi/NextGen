@@ -7,105 +7,135 @@
     <title>Lihat | NEXT GEN.com</title>
     <link rel="stylesheet" href="fontawesome-free-6.1.1-web-20220827T173714Z-001/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+         @import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-}
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+        }
 
-body{
-    background-color: #3433b2;
-    color: white;
-}
+        body{
+            background-color: #3433b2;
+            color: white;
+        }
 
-nav{
-    
-    padding: 10px;
-    background-color: #3433b2;
-    top: 0%;
-    color: white;
-}
-nav ul h1{
-    padding-top: 10px;
-    margin-left: 40px;
-    font-family: 'DynaPuff', cursive;
+        nav{
+            
+            padding: 10px;
+            background-color: #3433b2;
+            top: 0%;
+            color: white;
+        }
+        nav ul h1{
+            padding-top: 10px;
+            margin-left: 40px;
+            font-family: 'DynaPuff', cursive;
 
-}
-nav ul{
-    list-style: none;
-    display: flex;
-    justify-content: flex-start;
-    align-items: right;
-    
-}
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            justify-content: flex-start;
+            align-items: right;
+            
+        }
 
-nav ul li{
-    display: flex;
-    align-items: right;
-    margin-left: 50px;
-    padding-top: 3px;
-}
-nav ul li a{
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-}
+        nav ul li{
+            display: flex;
+            align-items: right;
+            margin-left: 50px;
+            padding-top: 3px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+        }
 
-nav ul li:hover{
-    padding-top: 5px;
-    text-decoration: underline;
-}
+        nav ul li:hover{
+            padding-top: 5px;
+            text-decoration: underline;
+        }
 
-#jam-digital{
-    overflow:hidden; 
-    width:150px;
-    margin-left: 10cm;
-}
+        #jam-digital{
+            overflow:hidden; 
+            width:150px;
+            margin-left: 10cm;
+        }
 
-#hours{
-    float:left; 
-    width:40px; 
-    height:50px; 
-    margin-right:10px;
-}
+        #hours{
+            float:left; 
+            width:40px; 
+            height:50px; 
+            margin-right:10px;
+        }
 
-#minute{
-    float:left; 
-    width:40px; 
-    height:50px; 
-    margin-right:10px;
-}
+        #minute{
+            float:left; 
+            width:40px; 
+            height:50px; 
+            margin-right:10px;
+        }
 
-#second{
-    float:right; 
-    width:40px; 
-    height:50px; 
-    margin-left:10px;
-}
+        #second{
+            float:right; 
+            width:40px; 
+            height:50px; 
+            margin-left:10px;
+        }
 
-#jam-digital p{
-    color:#000; 
-    font-size:20px; 
-    text-align:center; 
-    margin-top:4px;
-    color: white;
-}
+        #jam-digital p{
+            color:#000; 
+            font-size:20px; 
+            text-align:center; 
+            margin-top:4px;
+            color: white;
+        }
 
-.body{
-    margin-left: 40px;
-}
+        .body{
+            margin-left: 40px;
+        }
 
-.Heading{
-    margin-left: 40px;
-    font-size: 30px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
+        .Heading{
+            margin-left: 40px;
+            font-size: 30px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        @media screen and (max-width: 375px) {
+            /* body{
+                overflow: hidden;
+            } */
+            
+            .menu{
+                display: inline;
+                border: 2px solid gray;
+                float: right;
+                margin-top: 10px;
+                margin-left: 160px;
+                padding-left: 2px;
+                padding-right: 3px;
+                padding-top: 1px;
+                border-radius: 3px;
+            }
+
+            img{
+                height: 50%;
+            }
+
+            input{
+                display: none;
+            }
+            
+            nav ul li {
+                display: none;
+            }
+        }
 
     </style>
 </head>
@@ -122,6 +152,10 @@ nav ul li:hover{
                     <div id="hours"><p id="jam"></p></div>
                     <div id="minute"><p id="menit"></p></div>
                     <div id="second"><p id="detik"></p></div>
+                </div>
+                <div class="menu">
+                    <input type="checkbox" name="" id="nav-button">
+                    <label for="nav-button">&#9776</label>
                 </div>
             </li>
         </ul>
