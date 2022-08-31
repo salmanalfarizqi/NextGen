@@ -176,7 +176,7 @@ p a{
 
     .about{
         left: 50%;
-        top: 49%;
+        top: 50%;
         transform: translate(-50%);
         -webkit-transform: translate(-50%);
         -moz-transform: translate(-50%);
