@@ -187,7 +187,7 @@ p a {
 
     nav h1 {
         padding-top: 10px;
-        margin-left: 10px;
+        margin-left: 1px;
         font-family: 'DynaPuff', cursive;
         font-size: 20px;
     }
@@ -204,7 +204,7 @@ p a {
     nav ul li {
         display: flex;
         align-items: right;
-        margin-left: 10px;
+        margin-left: 1px;
         padding-top: 3px;
     }
 
