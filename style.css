@@ -152,7 +152,7 @@ p a {
 
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 375px) {
     body{
         overflow: hidden;
     }
