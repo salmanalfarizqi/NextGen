@@ -140,6 +140,11 @@ span{
 }
 
 @media screen and (max-width : 375px) {
+
+    body{
+        overflow: hidden;
+    }
+
     nav h1 {
         padding-top: 10px;
         margin-left: 1px;
@@ -203,13 +208,13 @@ span{
     }
 
     .fa-brands, .fa-duotone{
-        font-size: 20px;
+        font-size: 18px;
         padding-top: 30px;
     }
 
     span{
         font-size: 18px;
-        margin-left: 20px;
+        margin-left:10px;
         margin-bottom: 20px;
     }
     
