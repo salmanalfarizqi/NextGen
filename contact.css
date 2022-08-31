@@ -142,7 +142,7 @@ span{
 @media screen and (max-width : 375px) {
 
     body{
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
     nav h1 {
