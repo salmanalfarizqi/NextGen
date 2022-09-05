@@ -1,8 +1,8 @@
-document.getElementById("#nav-button")[0].addEventListener("click", toogleclass);
+document.getElementsByClassName("toggler-navbar")[0].addEventListener("click", toogleClass);
 
-function toogleclass(){
-    document.getElementById("hamburgermenu")[0].classlist.toggle('open')
-    document.getElementsByClassName("menubox")[0].classlist.toggle('open')
+function toogleClass() {
+    document.getElementsByClassName("hamburger-menu")[0].classList.toggle('open')
+    document.getElementsByClassName("sidebar")[0].classList.toggle('open')
 }
 
 window.setTimeout("waktu()",1000);

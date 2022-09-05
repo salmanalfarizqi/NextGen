@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | NEXT GEN.com</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home | NEXT GEN.com</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
 
- <!-- navbar -->
+    <!-- navbar -->
     <nav>
         <h1>NEXT GEN</h1>
-        <ul class="menubox">
-            <li><a href="index.html" class="item">Home</a></li>
-            <li><a href="loker.html" class="item">LOKER</a></li>
-            <li><a href="contact.html" class="item">Contact</a></li>
-            <li><a href="me.html" class="item">ME</a></li>
-            
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="loker.html">LOKER</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="me.html">ME</a></li>
             <li>
                 <div id="jam-digital">
                     <div id="hours"><p id="jam"></p></div>
@@ -26,18 +25,43 @@
                 </div>
             </li>
         </ul>
-        <div class="toggle">
-            <input type="checkbox" name="" id="nav-button">
-            <label for="nav-button">&#9776</label>
-        </div>
+        <a class="toggler-navbar">
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </a>
     </nav>
-<!-- image -->
-    <img src="./assets/images.jpeg" alt="">
-    <!-- About -->
-    <h1 class="anda">Karena anda kami hadir di sini</h1>
-    <p class="kami">Kami hadir di sini sebagai perusaana yang bernaungan di bidang teknologi dan informasi</p>
-    <p class="about"><a href="lihat.html">lihat selegkapnya</a></p>
-    <script src="script.js"></script>   
-</body>
+
+    <div class="sidebar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="loker.html">LOKER</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="me.html">ME</a></li>
+            <li>
+                <div id="jam-digital">
+                    <div id="hours"><p id="jam"></p></div>
+                    <div id="minute"><p id="menit"></p></div>
+                    <div id="second"><p id="detik"></p></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- image -->
+        <img src="./assets/images.jpeg" alt="">
+        <!-- About -->
+        <h1 class="anda">Karena anda kami hadir di sini</h1>
+        <p class="kami">Kami hadir di sini sebagai perusaana yang bernaungan di bidang teknologi dan informasi</p>
+        <p class="about"><a href="lihat.html">lihat selegkapnya</a></p>
+
+        <div class="for-responsive">
+            <h1 class="anda2">Karena anda kami hadir di sini</h1>
+            <p class="kami2">Kami hadir di sini sebagai perusaana yang bernaungan di bidang teknologi dan informasi</p>
+            <p class="about2"><a href="lihat.html">lihat selegkapnya</a></p>
+        </div>
+        <script src="script.js"></script>   
+    </body>
 </html>
 
