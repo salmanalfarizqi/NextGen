@@ -199,6 +199,10 @@ body{
 }
 
 @media screen and (max-width : 375px) {
+
+    body{
+        overflow-x: hidden;
+    }
     nav h1 {
         padding-top: 10px;
         margin-left: 1px;
