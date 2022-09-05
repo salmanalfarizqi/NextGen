@@ -11,141 +11,174 @@ body{
     background-color: #3433b2;
 }
 
-nav{
+@media screen and (max-width : 1366px) {
+
+    nav {
+
+        padding: 10px;
+        top: 0%;
+        color: white;
+    }
     
-    padding: 10px;
-    top: 0%;
-    color: white;
-    background-color: #3433b2;
-}
-nav ul h1{
-    padding-top: 10px;
-    margin-left: 40px;
-    font-family: 'DynaPuff', cursive;
-
-}
-nav ul{
-    list-style: none;
-    display: flex;
-    justify-content: flex-start;
-    align-items: right;
+    nav h1 {
+        padding-top: 10px;
+        margin-left: 40px;
+        font-family: 'DynaPuff', cursive;
     
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+        align-items: right;
+        margin-left: 150px;
+        margin-top: -40px;
+    
+    }
+    
+    nav ul li {
+        display: flex;
+        align-items: right;
+        margin-left: 50px;
+        padding-top: 3px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    nav ul li:hover {
+        padding-top: 5px;
+        text-decoration: underline;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    .img {
+        text-align: center;
+    }
+    
+    .about {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    
+    p a {
+        background-color: #7F8487;
+        padding: 10px 30px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    
+    #jam-digital {
+        overflow: hidden;
+        width: 150px;
+        margin-left: 10cm;
+    }
+    
+    #hours {
+        float: left;
+        width: 40px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    #minute {
+        float: left;
+        width: 40px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    #second {
+        float: right;
+        width: 40px;
+        height: 50px;
+        margin-left: 10px;
+    }
+    
+    #jam-digital p {
+        color: #000;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 4px;
+        color: white;
+    }
+    
+    
+    .loker{
+        background-color: blueviolet;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 1cm;
+        padding-right: 0.5cm;
+        margin-left: 2cm;
+        margin-right: 2cm;
+        margin-top: 20px;
+        border-radius: 30px;
+        color: white;
+    }
+    .loker a{
+        margin-top: 10px;
+        background-color: cadetblue;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .loker a:hover{
+        background-color: white;
+        color: cadetblue;
+        transition: all ease 0.2s;
+    }
+    
+    .loker1{
+        background-color: blueviolet;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 1cm;
+        padding-right: 0.5cm;
+        margin-left: 2cm;
+        margin-right: 2cm;
+        margin-top: 20px;
+        border-radius: 30px;
+        margin-bottom: 20px;
+        color: white;
+    }
+    .loker1 a{
+        margin-top: 10px;
+        background-color: cadetblue;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .loker1 a:hover{
+        background-color: white;
+        color: cadetblue;
+        transition: all ease 0.2s;
+    }
+        
+
 }
 
-nav ul li{
-    display: flex;
-    align-items: right;
-    margin-left: 50px;
-    padding-top: 3px;
-}
-nav ul li a{
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-}
-
-nav ul li:hover{
-    padding-top: 5px;
-    text-decoration: underline;
-}
-
-#jam-digital{
-    overflow:hidden; 
-    width:150px;
-    margin-left: 10cm;
-}
-
-#hours{
-    float:left; 
-    width:40px; 
-    height:50px; 
-    margin-right:10px;
-}
-
-#minute{
-    float:left; 
-    width:40px; 
-    height:50px; 
-    margin-right:10px;
-}
-
-#second{
-    float:right; 
-    width:40px; 
-    height:50px; 
-    margin-left:10px;
-}
-
-#jam-digital p{
-    color:#000; 
-    font-size:20px; 
-    text-align:center; 
-    margin-top:4px;
-    color: white;
-}
-
-.loker{
-    background-color: blueviolet;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 3cm;
-    padding-right: 3cm;
-    margin-left: 2cm;
-    margin-right: 2cm;
-    margin-top: 20px;
-    border-radius: 30px;
-    color: white;
-}
-.loker a{
-    margin-top: 10px;
-    background-color: cadetblue;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
-}
-
-.loker a:hover{
-    background-color: white;
-    color: cadetblue;
-    transition: all ease 0.2s;
-}
-
-.loker1{
-    background-color: blueviolet;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 3cm;
-    padding-right: 3cm;
-    margin-left: 2cm;
-    margin-right: 2cm;
-    margin-top: 20px;
-    border-radius: 30px;
-    margin-bottom: 20px;
-    color: white;
-}
-.loker1 a{
-    margin-top: 10px;
-    background-color: cadetblue;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
-}
-
-.loker1 a:hover{
-    background-color: white;
-    color: cadetblue;
-    transition: all ease 0.2s;
-}
 
 ::-webkit-scrollbar {
     width: 15px;
@@ -196,4 +229,31 @@ nav ul li:hover{
         font-size: 13px;
         font-family: 'Roboto', sans-serif;
     }
+
+    .loker{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .loker a{
+        margin-top: 10px;
+    }
+
+    .loker p{
+        font-size: 15px;
+    }
+
+    .loker h1{
+       
+    }
+
+    .loker1{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .loker1 p{
+        font-size: 15px;
+    }
+
 }
